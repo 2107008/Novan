@@ -1,4 +1,4 @@
-FROM mode:20-alpine as stage
+FROM node:20-alpine as stage
 
 WORKDIR /src/app
 COPY . .
